@@ -1,5 +1,5 @@
 header {
-    height: 50px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,8 +9,31 @@ header {
 .icon{
     height: 30px;
     width: 30px;
-    border-radius: 10px;
 }
+
+.ilogo{
+    height: 94px;
+    width: 94px; 
+}
+
+.palabra{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+.logo{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adicionales{
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .opciones {
     margin: 10px;
 }
