@@ -6,29 +6,29 @@ header {
     border-bottom: 1px solid #818181;
 }
 
-.icon{
+.icon {
     height: 30px;
     width: 30px;
 }
 
-.ilogo{
+.ilogo {
     height: 94px;
-    width: 94px; 
+    width: 94px;
 }
 
-.palabra{
+.palabra {
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
 }
 
-.logo{
+.logo {
     width: 250px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.adicionales{
+.adicionales {
     width: 140px;
     display: flex;
     justify-content: space-between;
@@ -36,6 +36,10 @@ header {
 
 .opciones {
     margin: 10px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .clases {
@@ -67,4 +71,16 @@ header {
     border-radius: 20px;
     border-top: 1px solid #818181;
     height: 70px;
+}
+
+.boton {
+    width: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: inherit;
 }
