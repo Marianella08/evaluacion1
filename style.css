@@ -164,13 +164,12 @@ header {
 
 
 .carta-footer {
-    width: 300px;
+    width: 295px;
     height: 57px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
     border-radius: 50%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    gap: 20px;
 }
 
