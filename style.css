@@ -50,6 +50,19 @@ header {
     text-overflow: ellipsis;
 }
 
+
+.card:hover {
+    -webkit-box-shadow: 3px 3px 6px #D8D8D8;
+    -moz-box-shadow: 3px 3px 6px #D8D8D8;
+}
+.card {
+    width: 300px;
+    height: 294px;
+    background: white;
+    border-radius: 10px;
+    border-width: 1px solid;
+    border: 1px solid #ccc;
+}
 .sala {
     background-color: #7fcafc;
     border-radius: 20px;
@@ -60,6 +73,15 @@ header {
     align-content: space-between;
 }
 
+.card-header {
+    width: 300px;
+    height: 100px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    background-color: black;
+}
 .baner {
     background-color: #a4e964;
     border-radius: 20px;
@@ -86,32 +108,8 @@ header {
     font-size: inherit;
 }
 
-.card {
-     width: 300px;
-    height: 294px;
-    background: white;
-    border-radius: 10px;
-    border-width: 1px solid;
-    border: 1px solid #ccc;
-}
 
 
-.card:hover {
-    -webkit-box-shadow: 3px 3px 6px #D8D8D8;
-    -moz-box-shadow: 3px 3px 6px #D8D8D8;
-}
-
-.card-header {
-    width: 300px;
-    height: 100px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-bottom: 1px solid #ccc;
-    cursor: pointer;
-    background-color: black;
-
-
-}
 
 .card-header .course {
     margin: 0 -0.25rem;
@@ -147,6 +145,7 @@ header {
     white-space: nowrap;
     overflow: hidden;
 }
+
 
 
 .card-body {
