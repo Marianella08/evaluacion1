@@ -42,60 +42,6 @@ header {
     justify-content: space-between;
 }
 
-.clases {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 20px;
-    grid-gap: 30px 30px;
-    text-overflow: ellipsis;
-}
-
-
-.card:hover {
-    -webkit-box-shadow: 3px 3px 6px #D8D8D8;
-    -moz-box-shadow: 3px 3px 6px #D8D8D8;
-}
-.card {
-    width: 300px;
-    height: 294px;
-    background: white;
-    border-radius: 10px;
-    border-width: 1px solid;
-    border: 1px solid #ccc;
-}
-.sala {
-    background-color: #7fcafc;
-    border-radius: 20px;
-    width: 300px;
-    height: 300px;
-    display: grid;
-    grid-gap: 5px;
-    align-content: space-between;
-}
-
-.card-header {
-    width: 300px;
-    height: 100px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-bottom: 1px solid #ccc;
-    cursor: pointer;
-    background-color: black;
-}
-.baner {
-    background-color: #a4e964;
-    border-radius: 20px;
-    height: 130px;
-}
-
-
-.imagenes {
-    background-color: #ebebeb;
-    border-radius: 20px;
-    border-top: 1px solid #818181;
-    height: 70px;
-}
-
 .boton {
     width: 115px;
     display: flex;
@@ -108,6 +54,38 @@ header {
     font-size: inherit;
 }
 
+
+.clases {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    grid-gap: 30px 30px;
+    text-overflow: ellipsis;
+}
+
+
+.carta:hover {
+    -webkit-box-shadow: 3px 3px 6px #D8D8D8;
+    -moz-box-shadow: 3px 3px 6px #D8D8D8;
+}
+.carta {
+    width: 300px;
+    height: 294px;
+    background: white;
+    border-radius: 10px;
+    border-width: 1px solid;
+    border: 1px solid #ccc;
+}
+
+.carta-header {
+    width: 300px;
+    height: 100px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    background-color: black;
+}
 
 
 
