@@ -89,7 +89,7 @@ header {
 
 
 
-.card-header .course {
+.carta-header .course {
     margin: 0 -0.25rem;
     padding: 0 0.25rem;
     text-align: left;
@@ -98,7 +98,7 @@ header {
 
 
 
-.card-header .course .title {
+.carta-header .course .title {
     width: 228px;
     font-family: 'Google Sans', Roboto, Arial, sans-serif;
     font-size: 1.375rem;
@@ -126,18 +126,18 @@ header {
 
 
 
-.card-body {
+.carta-body {
     width: 300px;
     height: 137px;
     border-bottom: 1px solid #ccc;
 
 }
 
-.card-body-container {
+.carta-body-container {
     padding: 12px 16px 16px;
 }
 
-.card-body .card-body-container .photo {
+.carta-body .card-body-container .photo {
     width: 75px;
     height: 75px;
     border-radius: 50%;
@@ -146,21 +146,21 @@ header {
     margin-top: -3.09375rem;
 }
 
-.card-body .card-body-container h2 {
+.carta-body .card-body-container h2 {
     margin-top: 0px;
     font-size: 13px;
     color: #566573;
     font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
-.card-footer {
+.carta-footer {
     width: 300px;
     height: 57px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 
-.card-footer .courseIcon {
+.carta-footer .courseIcon {
     border-radius: 50%;
     float: right;
     width: 40px;
@@ -169,7 +169,7 @@ header {
 
 }
 
-.card-footer .filesIcon {
+.carta-footer .filesIcon {
     border-radius: 50%;
 
     float: right;
@@ -185,4 +185,9 @@ header {
     font-family: Roboto, Helvetica, Arial, sans-serif;
     margin-top: 0px;
     text-decoration: none;
+}
+
+.descriptcion{
+    color: black;
+    font-size: 13px;
 }
