@@ -77,6 +77,8 @@ header {
     border: 1px solid #ccc;
 }
 
+
+
 .carta-header {
     width: 300px;
     height: 100px;
@@ -87,7 +89,13 @@ header {
     background-color: black;
 }
 
-
+.title {
+    color: black;
+    font-size: 13px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin-top: 0px;
+    text-decoration: none;
+}
 
 .carta-header .course {
     margin: 0 -0.25rem;
@@ -95,8 +103,6 @@ header {
     text-align: left;
 
 }
-
-
 
 .carta-header .course .title {
     width: 228px;
@@ -113,7 +119,7 @@ header {
 }
 
 .teacher-name {
-    color: #fff;
+    color: #bebebe;
     display: block;
     text-overflow: ellipsis;
     width: 210px;
@@ -133,7 +139,12 @@ header {
 
 }
 
-.carta-body-container {
+.descriptcion{
+    color: black;
+    font-size: 13px;
+}
+
+.carta-body-espacio {
     padding: 12px 16px 16px;
 }
 
@@ -153,6 +164,9 @@ header {
     font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
+
+
+
 .carta-footer {
     width: 300px;
     height: 57px;
@@ -166,7 +180,7 @@ header {
     width: 40px;
     height: 40px;
     margin-top: 1.09375rem;
-
+    
 }
 
 .carta-footer .filesIcon {
@@ -177,17 +191,4 @@ header {
     height: 40px;
     margin-top: 1.09375rem;
 
-}
-
-.title {
-    color: black;
-    font-size: 13px;
-    font-family: Roboto, Helvetica, Arial, sans-serif;
-    margin-top: 0px;
-    text-decoration: none;
-}
-
-.descriptcion{
-    color: black;
-    font-size: 13px;
 }
